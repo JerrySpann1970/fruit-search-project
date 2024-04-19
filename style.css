@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* gradient made using https://cssgradient.io */
+  background: linear-gradient(90deg, rgb(9, 237, 55) 0%, rgb(27, 161, 18) 35%, rgb(52, 80, 66) 100%);
+  padding: 42vh;
+  display: flex;
+  justify-content: center;
+}
+
+.search-container {
+  width: 500px;
+}
+
+.search-container input {
+  /* gradient made using https://cssgradient.io */
+  background: linear-gradient(90deg, rgb(206, 223, 209) 0%, rgb(110, 184, 142) 35%, rgb(44, 72, 46) 100%);
+  outline: none;
+  border: none;
+  height: 55px;
+  width: 100%;
+  padding: 0 40px 0 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.search-container .suggestions {
+  background: rgb(18, 79, 38);
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.highlight {
+  background-color: rgb(116, 183, 186);
+}
+
+ul li {
+  list-style: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  
+}
